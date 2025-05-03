@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.add-btn {
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #e8f5e9;
+}
+
+.content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.note {
+  background: #f1f8e9;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.delete-note {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  color: #888;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.delete-note:hover {
+  color: #f44336;
+}
